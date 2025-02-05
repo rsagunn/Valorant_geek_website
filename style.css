@@ -1,8 +1,10 @@
 h1,h2,h3 {
-    font-family: "Prompt", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 
   h1, h2 {
     margin: 0;
@@ -47,4 +49,8 @@ h1,h2,h3 {
   }
 html, body{
   background-color: rgb(160, 209, 209) ;
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
