@@ -1,33 +1,30 @@
-body {
-     h1,h2,h3 {
+h1,h2,h3 {
     font-family: "Prompt", serif;
     font-weight: 800;
     font-style: normal;
   }
 
-  p {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
   h1, h2 {
     margin: 0;
     padding: 0;
-    font-family: 'Merriweather', sans-serif;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   }
   h3 {
     font-size: 1.5  em;
     text-shadow: 1px 1px 2px pink;
   }
-ul {
+  body {margin:0;}
+
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #480e0e;
-}
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   
   li {
     float: left;
@@ -48,4 +45,6 @@ ul {
   .active {
     background-color: #be0000;
   }
+html, body{
+  background-color: rgb(160, 209, 209) ;
 }
